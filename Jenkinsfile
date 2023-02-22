@@ -1,6 +1,8 @@
 currentBuild.displayName = "Final_Demo # "+currentBuild.number
    //changes made to branch 3 change 1  
    //changes made to branch 3 change 2
+   //changes made to branch 3 change 3
+   
    def getDockerTag(){
         def tag = sh script: 'git rev-parse HEAD', returnStdout: true
         return tag

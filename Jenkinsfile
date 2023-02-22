@@ -14,7 +14,7 @@ pipeline{
         
         stages{
 
-
+              //changes made to branch_02 for 1st time
               stage('Quality Gate Statuc Check'){
 
                agent {
